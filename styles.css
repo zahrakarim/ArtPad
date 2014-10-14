@@ -392,9 +392,11 @@ ul, li {
     .page_menu--close_menu_link {
     display: none;
 }
-}.page_content {
+}
+
+.page_content {
     width: 100%;
-    max-width: 1400px;
+    max-width: 100%;
     position: relative;
     display: inline-block;
     vertical-align: top;
@@ -650,61 +652,75 @@ ul, li {
     .page_tiles--artist, .page_tiles--info {
     height: 440px;
 }
-}@media (min-width: 450px) {
+}
+@media (min-width: 450px) {
     .page_tiles--artist, .page_tiles--info {
     height: 540px;
 }
-}@media (min-width: 550px) {
+}
+@media (min-width: 550px) {
     .page_tiles--artist, .page_tiles--info {
     height: 600px;
 }
-}@media (min-width: 610px) {
+}
+@media (min-width: 610px) {
     .page_tiles--artist, .page_tiles--info {
     height: 300px;
 }
-}@media (min-width: 650px) {
+}
+@media (min-width: 650px) {
     .page_tiles--artist, .page_tiles--info {
     height: 360px;
 }
-}@media (min-width: 700px) {
+}
+@media (min-width: 700px) {
     .page_tiles--artist, .page_tiles--info {
     height: 400px;
 }
-}@media (min-width: 760px) {
+}
+@media (min-width: 760px) {
     .page_tiles--artist, .page_tiles--info {
     height: 460px;
 }
-}@media (min-width: 800px) {
-    .page_tiles--artist, .page_tiles--info {
-    width: 50%;
-    height: 250px;
 }
-}@media (min-width: 840px) {
+@media (min-width: 800px) {
+    .page_tiles--artist, .page_tiles--info {
+    width: 33.33%;
+    height: 200px;
+}
+}
+@media (min-width: 840px) {
     .page_tiles--artist, .page_tiles--info {
     height: 300px;
 }
-}@media (min-width: 960px) {
+}
+@media (min-width: 960px) {
     .page_tiles--artist, .page_tiles--info {
     height: 340px;
 }
-}@media (min-width: 1100px) {
+}
+@media (min-width: 1100px) {
     .page_tiles--artist, .page_tiles--info {
     width: 33.333%;
     height: 300px;
 }
-}@media (min-width: 1200px) {
+}
+@media (min-width: 1200px) {
     .page_tiles--artist, .page_tiles--info {
     height: 340px;
 }
-}@media (min-width: 1300px) {
+}
+@media (min-width: 1300px) {
     .page_tiles--artist, .page_tiles--info {
     height: 380px;
 }
-}@media (min-width: 1400px) {
+}
+@media (min-width: 1400px) {
     .page_tiles--artist, .page_tiles--info {
     height: 400px;
 }
-}@media (min-width: 1500px) {
+}
+@media (min-width: 1500px) {
     .page_tiles--artist, .page_tiles--info {
     height: 440px;
 }
