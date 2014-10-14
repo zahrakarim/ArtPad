@@ -120,7 +120,7 @@ ul, li {
 .page_menu {
     background: #333333;
     width: 100%;
-    max-width: 340px;
+    max-width: 360px;
     min-height: 100%;
     color: #9b9b9b;
     padding: 40px;
@@ -276,7 +276,7 @@ ul, li {
 .page_menu--action_international a
  {
     text-decoration: none;
-    padding: 11px 7px 11px 55px;
+    padding: 5px 5px 5px 5px;
     
 	-webkit-box-sizing: border-box;
     
