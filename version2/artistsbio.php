@@ -1,9 +1,4 @@
-<?php session_start();
-						if(isset($_SESSION['cart'])) {$cart_count = count($_SESSION["cart"]); echo $cart_count;}
-						else {
-							echo '0';
-						}
-					 ?>
+<?php session_start();?>
 <!doctype html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
@@ -159,6 +154,11 @@
 					$artid3=45;
 				}
 
+				if(isset($_SESSION['cart'])) {$cart_count = count($_SESSION["cart"]);}
+				else {
+					$cart_count=0;
+				}
+
 	echo '
 	<div class="modal" id="modal1">
 		<div class="content">
@@ -234,7 +234,7 @@
 				<div class="containerart">
 					<div class="row">
 						<div class="four columns">
-							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/'.$art01.'" alt=""></a>
+							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/thumb/'.$art01.'" alt=""></a>
 							<h4>'.$title01.'</h4>
 							<p>'.$artdes01.'</p>
 							<p>$'.$price01.'</p>
@@ -242,7 +242,7 @@
 						</div>
 
 						<div class="four columns">
-							<a href="#" class="switch" gumby-trigger="#modal2"><img src="img/'.$art02.'" alt=""></a>
+							<a href="#" class="switch" gumby-trigger="#modal2"><img src="img/thumb/'.$art02.'" alt=""></a>
 							<h4>'.$title02.'</h4>
 							<p>'.$artdes02.'</p>
 							<p>$'.$price02.'</p>
@@ -250,7 +250,7 @@
 						</div>
 
 						<div class="four columns">
-							<a href="#" class="switch" gumby-trigger="#modal3"><img src="img/'.$art03.'" alt=""></a>
+							<a href="#" class="switch" gumby-trigger="#modal3"><img src="img/thumb/'.$art03.'" alt=""></a>
 							<h4>'.$title03.'</h4>
 							<p>'.$artdes03.'</p>
 							<p>$'.$price03.'</p>

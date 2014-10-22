@@ -121,16 +121,16 @@
 						echo '
 						<div class="row">
 							<div class="five columns">
-								<img src="img/'.$img.'" alt="">
+								<img src="img/thumb/'.$img.'" alt="">
 							</div>
 							<div class="four columns">
 								<h3>'.$name.'</h3>
 							</div>
 							<div class="two columns">
-								<h3>'.$price.'</h3>
+								<h3>$'.$price.'</h3>
 							</div>
 							<div class="one columns">
-								<p class="medium oval btn default addtocart center"><a href="#">X</a></p>
+								<p class="medium oval btn default addtocart center"><a href="removefromcart.php?id='.$pid.'">X</a></p>
 							</div>
 						</div>
 						';

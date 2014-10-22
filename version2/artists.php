@@ -88,14 +88,14 @@
 		<div class="row">
 			<section class="pill tabs">
 				<ul class="tab-nav">
-					<li class="active"><a href="#">Page 1</a></li>
-					<li><a href="#">Page 2</a></li>
+					<li class="active"><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
 				</ul>
 				<div class="tab-content active">
 					<div class="row">
 						<div class="four columns image">
-							<a href="artistsbio.php?id=1"><img src="img/img_silence_demo.jpg"></a>
-							<h4 class="center"><a href="artistsbio.php?id=1">name</a></h4>
+							<a href="artistsbio.php?id=1"><img src="img/artist01.png"></a>
+							<h4 class="center"><a href="artistsbio.php?id=1">Robert Nicholson</a></h4>
 						</div>
 						<div class="four columns image">
 							<a href="artistsbio.php?id=2"><img src="img/art.png"></a>

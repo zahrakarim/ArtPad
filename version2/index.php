@@ -102,16 +102,16 @@
 		</div>
 		<div class="row">
 			<div class="four columns image featured">
-				<a href="#"><img src="img/art.png"></a>
-				<h4 class="center"><a href="#">name</a></h4>
+				<a href="artistsbio.php?id=1"><img src="img/artist01.png"></a>
+				<h4 class="center"><a href="artistsbio.php?id=1">Robert Nicholson</a></h4>
 			</div>
 			<div class="four columns image featured">
-				<a href="#"><img src="img/art.png"></a>
-				<h4 class="center"><a href="#">name</a></h4>
+				<a href="artistsbio.php?id=2"><img src="img/art.png"></a>
+				<h4 class="center"><a href="artistsbio.php?id=2">name</a></h4>
 			</div>
 			<div class="four columns image featured">
-				<a href="#"><img src="img/art.png"></a>
-				<h4 class="center"><a href="#">name</a></h4>
+				<a href="artistsbio.php?id=3"><img src="img/art.png"></a>
+				<h4 class="center"><a href="artistsbio.php?id=3">name</a></h4>
 			</div>
 		</div>
 	</div>

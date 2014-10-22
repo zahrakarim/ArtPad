@@ -3,7 +3,12 @@
 session_start();
 
 $productID = $_GET['id'];
-$_SESSION['cart'][] = $productID;
+
+if(!is_array($_SESSION['cart'])){
+	$_SESSION['cart'] = array();
+}
+
+array_push($_SESSION['cart'],$productID);
 
 header('Location: cart.php');
 

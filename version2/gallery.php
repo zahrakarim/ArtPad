@@ -105,52 +105,52 @@
 		<div class="row">
 			<section class="pill tabs">
 				<ul class="tab-nav">
-					<li class="active"><a href="#">Page 1</a></li>
-					<li><a href="#">Page 2</a></li>
-					<li><a href="#">Page 3</a></li>
-					<li><a href="#">Page 4</a></li>
-					<li><a href="#">Page 5</a></li>
+					<li class="active"><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
 				</ul>
 				<div class="tab-content active">
 					<div class="row">
-						<div class="four columns image">
-							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
-							<h4 class="center">Title</h4>
-							<h6 class="center"><a href="artistsbio.php?id=1">Artist</a></h6>
-							<p class="center">Price</p>
+						<div class="four columns image center">
+							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/thumb/artist01_01.png" onclick="myFunction('img/artist01_01.png')"></a>
+							<h4 class="center" style="font-size:25.2px;">The Head and The Hand</h4>
+							<h6 class="center"><a href="artistsbio.php?id=1">Robert Nicholson</a></h6>
+							<p class="center">$85</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=1">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
-							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/art.png" onclick="myFunction('img/art.png')"></a>
-							<h4 class="center">Title</h4>
-							<h6 class="center"><a href="artistsbio.php?id=1">Artist</a></h6>
-							<p class="center">Price</p>
+						<div class="four columns image center">
+							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/thumb/artist01_02.png" onclick="myFunction('img/artist01_02.png')"></a>
+							<h4 class="center">Introspect</h4>
+							<h6 class="center"><a href="artistsbio.php?id=1">Robert Nicholson</a></h6>
+							<p class="center">$85</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=2">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
-							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
-							<h4 class="center">Title</h4>
-							<h6 class="center"><a href="artistsbio.php?id=1">Artist</a></h6>
-							<p class="center">Price</p>
+						<div class="four columns image center">
+							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/thumb/artist01_03.png" onclick="myFunction('img/artist01_03.png')"></a>
+							<h4 class="center">Heavensent : Hellbent</h4>
+							<h6 class="center"><a href="artistsbio.php?id=1">Robert Nicholson</a></h6>
+							<p class="center">$120</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=3">Add to Cart</a></p>
 						</div>
 					</div>
 					<div class="row">
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=2">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=4">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=2">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=5">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=2">Artist</a></h6>
@@ -159,21 +159,21 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=3">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=7">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=3">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=8">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=3">Artist</a></h6>
@@ -185,21 +185,21 @@
 
 				<div class="tab-content">
 					<div class="row">
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=4">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=10">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=4">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=11">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=4">Artist</a></h6>
@@ -208,21 +208,21 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=5">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=13">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=5">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=14">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=5">Artist</a></h6>
@@ -231,21 +231,21 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=6">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=16">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=6">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=17">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=6">Artist</a></h6>
@@ -257,21 +257,21 @@
 
 				<div class="tab-content">
 					<div class="row">
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=7">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=19">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=7">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=20">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=7">Artist</a></h6>
@@ -280,21 +280,21 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=8">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=22">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=8">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=23">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=8">Artist</a></h6>
@@ -303,21 +303,21 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=9">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=25">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=9">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=26">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=9">Artist</a></h6>
@@ -329,21 +329,21 @@
 
 				<div class="tab-content">
 					<div class="row">
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=10">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=28">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=10">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=29">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=10">Artist</a></h6>
@@ -352,21 +352,21 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=11">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=31">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=11">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=32">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=11">Artist</a></h6>
@@ -375,21 +375,21 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=12">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=34">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=12">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=35">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=12">Artist</a></h6>
@@ -401,21 +401,21 @@
 
 				<div class="tab-content">
 					<div class="row">
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=13">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=37">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=13">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=38">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=13">Artist</a></h6>
@@ -424,21 +424,21 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=14">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=40">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=14">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=41">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=14">Artist</a></h6>
@@ -447,21 +447,21 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=15">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=43">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=15">Artist</a></h6>
 							<p class="center">Price</p>
 							<p class="medium oval btn default addtocart center"><a href="addtocart.php?id=44">Add to Cart</a></p>
 						</div>
-						<div class="four columns image">
+						<div class="four columns image center">
 							<a href="#" class="switch" gumby-trigger="#modal1"><img src="img/img_silence_demo.jpg" onclick="myFunction('img/img_silence_demo.jpg')"></a>
 							<h4 class="center">Title</h4>
 							<h6 class="center"><a href="artistsbio.php?id=15">Artist</a></h6>
