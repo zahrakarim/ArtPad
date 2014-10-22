@@ -8,14 +8,11 @@
     <title>ArtPad</title>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1">
-
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
-
-
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/img/icon/touchicon-144.png">
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 
 <body>

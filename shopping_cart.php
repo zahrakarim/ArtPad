@@ -1,4 +1,19 @@
+<?php
+    
+    session_start();
+    require("includes/connection.php");
+    if (isset($_GET['page'])) {
+        $pages=array("products", "cart");
+        if (in_array($_GET['page'], $pages)) {
+            $_page=$_GET['page'];
+        } else {
+            $_page="products";
+        }   
+    } else {
+        $_page="products";
+    }
 
+?>
 <!doctype html>
 <!--[if lt IE 9]><html lang="sv" class="IE8"><![endif]-->
 <!--[if IE 9]><html lang="sv" class="IE9"><![endif]-->
@@ -8,7 +23,7 @@
     <title>ArtPad</title>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1">
-
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
 
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
@@ -28,37 +43,52 @@
             
 
             <div class="page_content--artist">
-                <h2 class="page_content--artist_heading">FAQ</h2>
+                <h2 class="page_content--artist_heading">Shopping Cart</h2>
+                
+                <div id="container">
 
-                <p><strong>1 &nbsp;Can I purchase art made by UCF students?</strong></p>
-                <p>Yes.  You may chose art from the featured artists on Art Pad UCF.</p>
+                    <div id="main">
 
-                <p><strong>2 &nbsp;Can I sell my art?</strong></p>
-                <p>Yes.  You may sell your art on Art Pad UCF if 1) you have created a profile with us, 2) you are an SVAD student at UCF and 3) you have a minimum of three items to display.</p>
+                        <?php require($_page.".php"); ?>
 
-                <p><strong>3 &nbsp;What is SVAD?</strong></p>
-                <p>SVAD stands for the School of Visual Art and Design at University of Central Florida.</p>
+                    </div>
 
-                <p><strong>4 &nbsp;What is UCF?</strong></p>
-                <p>University of Central Florida (UCF) is a really great school in Orlando, FL teaming with amazing talent.</p>
+                    <div id="sidebar">
+                    <?php
+                        if(isset($_SESSION['cart'])) {
+                            $sql="SELECT * FROM gallery WHERE id_product IN (";
+                            foreach($_SESSION['cart'] as $id => $value) {
+                                $sql.=$id.",";
+                            }
 
-                <p><strong>5 &nbsp;Do I need to create a profile to purchase artwork?</strong></p>
-                <p>No.  You do not need to create a profile or account to purchase art; however, if you would like to make your purchasing easier, you may elect to create an account when that service is provided.</p>
+                            $sql=substr($sql, 0, -1).") ORDER BY name ASC";
+                            $query=mysql_query($sql);
 
-                <p><strong>6 &nbsp;When do you plan on providing customer profile creation?</strong></p>
-                <p>To be honest, I don't really know....</p>
+                            if (empty($row)) {
+                                error_reporting(0);
+                            }
 
-                <p><strong>7 &nbsp;What color is better, black or gold?</strong></p>
-                <p>I mean, really?...gold of course.</p>
+                        while($row=mysql_fetch_array($query)) {
+                        ?>
+                            <p><?php echo $row['name'] ?> x <?php echo $_SESSION['cart'][$row['id_product']]['quantity'] ?></p>
+                            <?php
+                            }
 
-                <p><strong>8 &nbsp;Two trains leave different cities heading toward each other at different speeds. When and where do they meet?</strong></p>
-                <p>Potato.</p>
+                            ?>
 
-                <p><strong>9 &nbsp;Do you take personal checks or cash?</strong></p>
-                <p>No. We only accept credit card or Paypal on the site.</p>
+                            <hr />
+                            <a href="index.php?page=cart">Go to Cart</a>
 
-                <p><strong>10 &nbsp;Who's the cat that won't cop out, when there's danger all about?</strong></p>
-                <p>SHAFT...Right on.</p>
+                        <?php
+
+                        } else {
+
+                            echo "<p>Cart is empty</p>";
+                        }
+                    ?>
+                    </div>
+
+                </div>
 
             </div>
 

@@ -3,14 +3,14 @@
             <h1 class="page_menu--logo"><a href="http://placehold.it/260x144"></a></h1>
 
             <ul class="page_menu--actions">
-                <li class="page_menu--action_book"><a href="index.html">Home</a></li>
-                <li class="page_menu--action_book"><a href="artist.html">Artists</a></li>
-                <li class="page_menu--action_book"><a href="gallery.html">Gallery</a></li>
+                <li class="page_menu--action_book"><a href="index.php">Home</a></li>
+                <li class="page_menu--action_book"><a href="artist.php">Artists</a></li>
+                <li class="page_menu--action_book"><a href="gallery.php">Gallery</a></li>
                 <li class="page_menu--action_book"><a href="#">Events</a></li>
                 <li class="page_menu--action_book"><a href="#">Submit Work</a></li>
-                <li class="page_menu--action_book"><a href="#">Shopping Cart</a></li>
-                <li class="page_menu--action_book"><a href="faq.html">FAQ</a></li>
-                <li class="page_menu--action_book"><a href="terms.html">Terms and Conditions</a></li>
+                <li class="page_menu--action_book"><a href="shopping_cart.php">Shopping Cart</a></li>
+                <li class="page_menu--action_book"><a href="faq.php">FAQ</a></li>
+                <li class="page_menu--action_book"><a href="terms.php">Terms and Conditions</a></li>
             </ul>
 
 
