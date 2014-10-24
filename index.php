@@ -47,6 +47,7 @@
 		<div class="row">
 			<nav>
 				<ul>
+					<li><a href="account.php">My Account</a></li>
 					<li><a href="cart.php">Cart ( <?php 
 						if(isset($_SESSION['cart'])) {$cart_count = count($_SESSION["cart"]); echo $cart_count;}
 						else {
@@ -73,14 +74,13 @@
 
 	<div id="slidercontainer">
 		<div class="modal active" style="background-color:#1F1F1F;">
-			<div class="content blue">
-				<a class="switch left tool active" gumby-trigger="#slidercontainer .modal .orange|#slidercontainer .modal .blue" style="opacity:1;">left</a>
-				<a class="switch right tool active" gumby-trigger="#slidercontainer .modal .orange|#slidercontainer .modal .blue" style="opacity:1;">right</a>
-			</div>
-			<div class="content orange active">
-				<a class="switch left tool active" gumby-trigger="#slidercontainer .modal .blue|#slidercontainer .modal .orange" style="opacity:1;">left</a>
-				<a class="switch right tool active" gumby-trigger="#slidercontainer .modal .blue|#slidercontainer .modal .orange" style="opacity:1;">right</a>
-			</div>
+			<a class="switch tool right" gumby-trigger="#slidercontainer .modal .orange|#slidercontainer .modal .blue, #slidercontainer .modal .pink" style="opacity:1;">1</a>
+			<a class="switch tool right2" gumby-trigger="#slidercontainer .modal .blue|#slidercontainer .modal .orange, #slidercontainer .modal .pink" style="opacity:1;">2</a>
+			<a class="switch tool right3" gumby-trigger="#slidercontainer .modal .pink|#slidercontainer .modal .orange, #slidercontainer .modal .blue" style="opacity:1;">3</a>
+
+			<div class="content blue"></div>
+			<div class="content orange active"></div>
+			<div class="content pink"></div>
 		</div>
 	</div>
 	
@@ -123,6 +123,14 @@
 			<div class="four columns image featured">
 				<a href="artistsbio.php?id=3"><img src="img/artist03.png"></a>
 				<h4 class="center"><a href="artistsbio.php?id=3">Adam Lehman</a></h4>
+			</div>
+		</div>
+	</div>
+
+	<div class="container2 featuredcontain">
+		<div class="row">
+			<div class="eight columns centered image">
+				<a href="http://www.ucf.edu"><img src="img/ucflogo.png" alt=""></a>
 			</div>
 		</div>
 	</div>

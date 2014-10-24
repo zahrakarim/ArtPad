@@ -14,12 +14,11 @@
 			 More info: h5bp.com/b/378 -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>ArtPad | FAQ</title>
+	<title>ArtPad | Account</title>
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<meta name="author" content="humans.txt">
 
-	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
 
 	<!-- Facebook Metadata /-->
 	<meta property="fb:page_id" content="" />
@@ -49,7 +48,7 @@
 		<div class="row">
 			<nav>
 				<ul>
-					<li><a href="account.php">My Account</a></li>
+					<li><a href="account.php" style="color:#FFCC00;">My Account</a></li>
 					<li><a href="cart.php">Cart ( <?php 
 						if(isset($_SESSION['cart'])) {$cart_count = count($_SESSION["cart"]); echo $cart_count;}
 						else {
@@ -74,122 +73,30 @@
 		</div>
 	</div>
 
-	<div class="container2" id="gallerytitle">
-		<div class="row" style="margin-top:10px;">
-			<h2 class="lead">FAQ</h2>
+	<div id="gallerybanner">
+		<div class="valign">
+			<div>
+				<h1 class="center">Account</h1>
+			</div>
 		</div>
 	</div>
 
 	<div class="containerform">
 		<div class="row">
-			<h4 class="btndraw primary">
-				<a href="#"  class="toggle" gumby-trigger="#drawer1">Can I purchase art made by UCF students?</a>
-			</h4>
-			<div class="row">
-				<div class="twelve columns">
-					<div class="drawer" id="drawer1">
-						<p>Yes.  You may chose art from the featured artists on Art Pad UCF.</p>
-					</div>
-				</div>
-			</div>
-
-			<h4 class="btndraw primary">
-				<a href="#"  class="toggle" gumby-trigger="#drawer2">Can I sell my art?</a>
-			</h4>
-			<div class="row">
-				<div class="twelve columns">
-					<div class="drawer" id="drawer2">
-						<p>Yes.  You may sell your art on Art Pad UCF if 1) you have created a profile with us, 2) you are an SVAD student at UCF and 3) you have a minimum of three items to display.</p>
-					</div>
-				</div>
-			</div>
-
-			<h4 class="btndraw primary">
-				<a href="#"  class="toggle" gumby-trigger="#drawer3">What is SVAD?</a>
-			</h4>
-			<div class="row">
-				<div class="twelve columns">
-					<div class="drawer" id="drawer3">
-						<p>SVAD stands for the School of Visual Art and Design at University of Central Florida.</p>
-					</div>
-				</div>
-			</div>
-
-			<h4 class="btndraw primary">
-				<a href="#"  class="toggle" gumby-trigger="#drawer4">What is UCF?</a>
-			</h4>
-			<div class="row">
-				<div class="twelve columns">
-					<div class="drawer" id="drawer4">
-						<p>University of Central Florida (UCF) is a really great school in Orlando, FL teaming with amazing talent.</p>
-					</div>
-				</div>
-			</div>
-
-			<h4 class="btndraw primary">
-				<a href="#"  class="toggle" gumby-trigger="#drawer5">Do I need to create a profile to purchase artwork?</a>
-			</h4>
-			<div class="row">
-				<div class="twelve columns">
-					<div class="drawer" id="drawer5">
-						<p>No.  You do not need to create a profile or account to purchase art; however, if you would like to make your purchasing easier, you may elect to create an account when that service is provided.</p>
-					</div>
-				</div>
-			</div>
-
-			<h4 class="btndraw primary">
-				<a href="#"  class="toggle" gumby-trigger="#drawer6">When do you plan on providing customer profile creation?</a>
-			</h4>
-			<div class="row">
-				<div class="twelve columns">
-					<div class="drawer" id="drawer6">
-						<p>Profile creation is a selective process. You must apply through the Submit Wrok form and if we approve of your art you will be provided with a means to log in and upload more art and create a profile.</p>
-					</div>
-				</div>
-			</div>
-
-			<h4 class="btndraw primary">
-				<a href="#"  class="toggle" gumby-trigger="#drawer7">What color is better, black or gold?</a>
-			</h4>
-			<div class="row">
-				<div class="twelve columns">
-					<div class="drawer" id="drawer7">
-						<p>I mean, really?...gold of course.</p>
-					</div>
-				</div>
-			</div>
-
-			<h4 class="btndraw primary">
-				<a href="#"  class="toggle" gumby-trigger="#drawer8">Two trains leave different cities heading toward each other at different speeds. When and where do they meet?</a>
-			</h4>
-			<div class="row">
-				<div class="twelve columns">
-					<div class="drawer" id="drawer8">
-						<p>Potato.</p>
-					</div>
-				</div>
-			</div>
-
-			<h4 class="btndraw primary">
-				<a href="#"  class="toggle" gumby-trigger="#drawer9">Do you take personal checks or cash?</a>
-			</h4>
-			<div class="row">
-				<div class="twelve columns">
-					<div class="drawer" id="drawer9">
-						<p>No. We only accept credit card or Paypal on the site.</p>
-					</div>
-				</div>
-			</div>
-
-			<h4 class="btndraw primary">
-				<a href="#"  class="toggle" gumby-trigger="#drawer10">Who's the cat that won't cop out, when there's danger all about?</a>
-			</h4>
-			<div class="row">
-				<div class="twelve columns">
-					<div class="drawer" id="drawer10">
-						<p>SHAFT...Right on.</p>
-					</div>
-				</div>
+			<div class="five columns centered">
+				<form id="myForm">
+				<ul>
+					<li class="field">
+						<label class="inline" for="fname">Username:</label>
+						<input class="text input" name="fname" type="text" placeholder="First Name" />
+					</li>
+					<li class="field">
+						<label class="inline" for="lname">Password:</label>
+						<input class="text input" name="lname" type="text" placeholder="Last Name" />
+					</li>
+					<p class="medium oval btn default addart center"><a href="#" class="switch" gumby-trigger="#modalform">Login</a></p>
+				</ul>
+			</form>
 			</div>
 		</div>
 	</div>
@@ -206,7 +113,7 @@
 			</div>
 			<div class="three columns">
 				<ul>
-					<li><a href="faq.php" style="color:#FFCC00;">FAQ</a></li>
+					<li><a href="faq.php">FAQ</a></li>
 					<li><a href="terms.php">Terms</a></li>
 				</ul>
 			</div>

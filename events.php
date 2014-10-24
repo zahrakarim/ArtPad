@@ -67,6 +67,7 @@
 		<div class="row">
 			<nav>
 				<ul>
+					<li><a href="account.php">My Account</a></li>
 					<li><a href="cart.php">Cart ( <?php 
 						if(isset($_SESSION['cart'])) {$cart_count = count($_SESSION["cart"]); echo $cart_count;}
 						else {
@@ -91,13 +92,10 @@
 		</div>
 	</div>
 
-	<div class="container2" id="gallerytitle">
-		<div class="row" style="margin-top:10px;">
-			<h2 class="lead">Events</h2>
-		</div>
-		<div class="row">
-			<div class="ten columns">
-				<p>Check out these awesome events coming up.</p>
+	<div id="gallerybanner">
+		<div class="valign">
+			<div>
+				<h1 class="center">Events</h1>
 			</div>
 		</div>
 	</div>

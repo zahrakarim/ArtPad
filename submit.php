@@ -66,6 +66,7 @@
 		<div class="row">
 			<nav>
 				<ul>
+					<li><a href="account.php">My Account</a></li>
 					<li><a href="cart.php">Cart ( <?php 
 						if(isset($_SESSION['cart'])) {$cart_count = count($_SESSION["cart"]); echo $cart_count;}
 						else {
@@ -90,7 +91,15 @@
 		</div>
 	</div>
 
-	<div class="container2" id="gallerytitle">
+	<div id="applybanner">
+		<div class="valign">
+			<div>
+				<h1 class="center">Apply</h1>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div class="container2" id="gallerytitle">
 		<div class="row" style="margin-top:10px;">
 			<h2 class="lead">Apply</h2>
 		</div>
@@ -99,7 +108,7 @@
 				<p>We want you here. Take a moment and fill out our application form and attach the pieces of art you wish us to view. Art Pad is a highly esteemed program and we will let you know if your work has been accepted, along with login information and an artist page all to yourself.</p>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="containerform">
 		<div class="row">

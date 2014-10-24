@@ -65,6 +65,7 @@
 		<div class="row">
 			<nav>
 				<ul>
+					<li><a href="account.php">My Account</a></li>
 					<li><a href="cart.php">Cart ( <?php 
 						if(isset($_SESSION['cart'])) {$cart_count = count($_SESSION["cart"]); echo $cart_count;}
 						else {
@@ -89,13 +90,10 @@
 		</div>
 	</div>
 
-	<div class="container2" id="gallerytitle">
-		<div class="row" style="margin-top:10px;">
-			<h2 class="lead">Gallery</h2>
-		</div>
-		<div class="row">
-			<div class="ten columns">
-				<p>This art here is. Fanny pack Wes Anderson jean shorts roof party squid, cliche Truffaut bespoke ethical. PBRB slow-carb actually pug. Fashion axe mumblecore mixtape, asymmetrical blog Etsy you probably haven't heard of them food truck Pinterest.</p>
+	<div id="gallerybanner">
+		<div class="valign">
+			<div>
+				<h1 class="center">Gallery</h1>
 			</div>
 		</div>
 	</div>

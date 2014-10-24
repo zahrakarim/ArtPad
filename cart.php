@@ -48,6 +48,7 @@
 		<div class="row">
 			<nav>
 				<ul>
+					<li><a href="account.php">My Account</a></li>
 					<li><a href="cart.php" style="color:#FFCC00;">Cart ( <?php 
 						if(isset($_SESSION['cart'])) {$cart_count = count($_SESSION["cart"]); echo $cart_count;}
 						else {

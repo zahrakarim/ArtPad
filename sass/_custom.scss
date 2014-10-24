@@ -129,17 +129,48 @@ li {
   background: $white;
 }
 
-#bannerit {
+
+#applybanner {
     position:relative;
     width:100%;
     min-height:183px;
     max-height: 480px;
     height:480px;
-    background:url(../img/bannerbg.png) center center no-repeat;
+    background:url(../img/bannerbg03.png) center center no-repeat;
     background-size:cover;
     moz-background-size: cover;
 }
-#bannerit .valign {
+
+#artistbanner {
+    position:relative;
+    width:100%;
+    min-height:183px;
+    max-height: 480px;
+    height:480px;
+    background:url(../img/bannerbg02.png) center center no-repeat;
+    background-size:cover;
+    moz-background-size: cover;
+}
+
+#gallerybanner {
+    position:relative;
+    width:100%;
+    min-height:183px;
+    max-height: 480px;
+    height:480px;
+    background:url(../img/bannerbg01.png) center center no-repeat;
+    background-size:cover;
+    moz-background-size: cover;
+}
+
+
+#artistbanner .valign {
+    height:480px;
+}
+#gallerybanner .valign {
+    height:480px;
+}
+#applybanner .valign {
     height:480px;
 }
 .valign {
@@ -152,21 +183,22 @@ li {
     vertical-align:middle;
     width:100%;
 }
-#bannerit h1 {
-    color:$white;
-    font-size:3.75em;
+#artistbanner h1, #applybanner h1, #gallerybanner h1 {
+    color:$grey;
+    font-size:8em;
+}
+@media only screen and (max-width:769px){
+    #artistbanner h1, #applybanner h1, #gallerybanner h1 {
+        font-size:5em;
+    }
 }
 .center {
     text-align:center;
 }
-#bannerit h1 span {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-}
 
 .container2 {
     padding: 10px 20px;
-    padding-bottom:25px;
+    padding-bottom:5px;
 }
 .btn.primary {
     background:$lgblue;
@@ -383,17 +415,23 @@ h6 a:hover{
     -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
+
 #slidercontainer .modal>.content.blue {
-    background:url(../img/bannerbg.png) center center no-repeat;
+    background:url(../img/bannerbg01.png) center center no-repeat;
     background-size:cover;
     moz-background-size: cover;
 }
 #slidercontainer .modal>.content.orange {
-    background:#ed681a;
+    background:url(../img/bannerbg02.png) center center no-repeat;
+    background-size:cover;
+    moz-background-size: cover;
 }
 #slidercontainer .modal>.content.pink {
-    background:#FFCCFF;
+    background:url(../img/bannerbg03.png) center center no-repeat;
+    background-size:cover;
+    moz-background-size: cover;
 }
+
 #slidercontainer .modal>.content {
     position: absolute;
     top: 0;
@@ -426,16 +464,37 @@ h6 a:hover{
     z-index: 9999;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
+    font-size:24px;
+    color:white;
 }
 .left {
     text-align: left;
 }
 #slidercontainer .tools a.right, #slidercontainer a.tool.right {
-    top: 50%;
+    top: 25%;
     margin-top: -10px;
     right: 20px;
 }
 .right {
     text-align: right;
 }
+#slidercontainer .tools a.right2, #slidercontainer a.tool.right2 {
+    top: 50%;
+    margin-top: -10px;
+    right: 20px;
+}
+.right2 {
+    text-align: right;
+}
+#slidercontainer .tools a.right3, #slidercontainer a.tool.right3 {
+    top: 75%;
+    margin-top: -10px;
+    right: 20px;
+}
+.right3 {
+    text-align: right;
+}
 
+.tab-content {
+    padding-bottom:0;
+}
